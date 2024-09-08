@@ -48,7 +48,7 @@
          background: #e7e5e4;
          }
          .flickity-page-dots .dot.is-selected {
-         background: #374151;
+         background: #134e4a;
          }
       </style>
    </head>
@@ -62,8 +62,8 @@
                         <img src="https://cdn.lomb.st/mailserv/logo-2.png" alt="logo" class="w-40">
                      </div>
                      <div class="flex flex-row items-center">
-                        <a href="https://calendly.com/videomeet/30" target="_blank" class="sm:inline hidden mr-4 text-base font-medium text-teal-700">Book a demo</a>
-                        <a href = "javascript:void(0)"  data-cb-type = "portal" class="tracking-tight transition-all rounded-lg text-base font-medium text-white border border-gray-900 bg-gray-700 cursor-pointer px-3 py-2 hover:bg-gray-800">Manage subscription
+                        <a href="mailto:support@servpost.email" target="_blank" class="sm:inline hidden mr-4 text-base font-medium text-teal-700">Support</a>
+                        <a href = "javascript:void(0)"  data-cb-type = "portal" class="tracking-tight transition-all rounded-lg text-base font-medium text-white bg-teal-700 cursor-pointer px-3 py-3 hover:bg-teal-800">Manage subscription
                         </a>
                      </div>
                   </div>
@@ -81,10 +81,10 @@
                      <h1 class="text-center text-3xl font-bold text-white tracking-tight sm:text-4xl"> Save up to 80% on your
                         email marketing 
                      </h1>
-                     <a href="mailto:support@servpost.email" target="_blank" class=" mt-10 grow-0 shadow items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-700 hover:bg-teal-800 transition-all">
-                     Request a free account
+                     <a href="mailto:support@servpost.email" target="_blank" class=" mt-10 grow-0 shadow items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-700 hover:bg-teal-800 transition-all">
+                     Request a free trial
                      </a>
-                     <span class="text-base font-medium text-gray-100 mt-2">* 14-days/1,000-emails trial</span>
+                     <span class="text-sm text-white mt-2">14 days x 1,000 emails</span>
                      <div>
                      </div>
                   </div>
@@ -99,7 +99,7 @@
                      <p class="mt-2 text-lg text-gray-900 sm:mb-0 mb-4">
                         A comprehensive, scalable email marketing solution. 
                      </p>
-                     <button id="openOverlay" class="grow-0 items-center justify-center text-base font-medium text-white px-3 py-2 hover:bg-gray-800 transition-all bg-gray-700 rounded-md mt-3">
+                     <button id="openOverlay" class="grow-0 items-center justify-center text-base font-medium text-white px-3 py-3 hover:bg-teal-800 transition-all bg-teal-700 rounded-md mt-3">
                      Preview
                      </button>
                   </div>
@@ -680,9 +680,9 @@
             <div class="max-w-lg mx-auto overflow-hidden lg:max-w-none">
                <div class="px-10 pt-4 pb-10">
                   <div>
-                     <p class="text-base text-gray-700">
+                     <p class="text-base text-gray-900">
                         We have to maintain high deliverability and reputation for all users which are committed to best practices when sending emails. In order to ensure full performance of the service we might suspend or cancel accounts that don't implement best practices and/or don't enforce corrective actions.<br>
-                     <ul role="list" class="px-4 list-disc mt-2 text-base text-gray-700">
+                     <ul role="list" class="px-4 list-disc mt-2 text-base text-gray-900">
                         <li>Email domain shall be owned by the user</li>
                         <li>Email campaigns shall be free from broken links and abusive content</li>
                         <li>Receiving addresses shall be valid and have opted-in to marketing</li>
@@ -693,34 +693,34 @@
             </div>
          </div>
          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-4">
-            <div class="max-w-lg mx-auto overflow-hidden lg:max-w-none flex flex-col items-start">
-               <a href="https://stripe.com" target="_blank"><img src="https://cdn.lomb.st/mailserv/stripe.png" alt="Stripe" class="w-36 mb-4"></a>
-               <div class="text-gray-700 text-base">&copy; <span id=copyright></span> ServPost. All rights reserved.&nbsp;&nbsp;&nbsp;<a href="mailto:support@servpost.email" target="_self" class="text-teal-700 font-medium">Support</a></div>
+            <div class="max-w-lg mx-auto overflow-hidden lg:max-w-none flex flex-row items-start justify-between">
+               <div class="text-gray-500 text-base">&copy; <span id=copyright></span> ServPost. All rights reserved.</div>
+               <a href="https://stripe.com" target="_blank"><img src="https://cdn.lomb.st/mailserv/stripe.png" alt="Stripe" class="w-28"></a>
             </div>
          </div>
       </div>
       <div class="bg-gray-900 bg-opacity-80 fixed z-10 inset-0 overflow-y-auto transition-all " id="overlay">
          <div class="max-w-7xl mx-auto px-4 sm:px-20 lg:px-32 pt-12">
             <div class="max-w-lg mx-auto lg:max-w-none rounded-lg bg-white p-4 grid">
-               <svg id="overlayOff" class="place-self-end h-6 w-6 text-gray-700 bg-stone-200 p-1 m-2 transition-all hover:bg-stone-100 rounded-full mb-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+               <svg id="overlayOff" class="place-self-end h-6 w-6 text-teal-900 bg-stone-200 p-1 m-2 transition-all hover:bg-stone-100 rounded-full mb-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                   <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd" />
                </svg>
                <div class="carousel rounded-lg" data-flickity='{ "contain": true, "prevNextButtons": false, "pageDots": true, "wrapAround": true  }'>
                   <div class="carousel-item px-2">
                      <img src="https://cdn.lomb.st/mailserv/analytics.png" class="w-full h-full object-cover object-top rounded-lg">
-                     <p class="text-teal-700 bg-teal-50 rounded-md my-3 mx-2 text-base text-center p-2">Campaign analytics</p>
+                     <p class="text-gray-900 rounded-md my-3 mx-2 text-base text-center p-2">Campaign analytics</p>
                   </div>
                   <div class="carousel-item px-2">
                      <img src="https://cdn.lomb.st/mailserv/templates.png" class="w-full h-full object-cover object-top rounded-lg">
-                     <p class="text-teal-700 bg-teal-50 rounded-md my-3 mx-2 text-base text-center p-2">HMTL Editor</p>
+                     <p class="text-gray-900 rounded-md my-3 mx-2 text-base text-center p-2">HMTL Editor</p>
                   </div>
                   <div class="carousel-item px-2">
                      <img src="https://cdn.lomb.st/mailserv/rules.png" class="w-full h-full object-cover object-top rounded-lg">
-                     <p class="text-teal-700 bg-teal-50 rounded-md my-3 mx-2 text-base text-center p-2">Automation rules</p>
+                     <p class="text-gray-900  rounded-md my-3 mx-2 text-base text-center p-2">Automation rules</p>
                   </div>
                   <div class="carousel-item px-2">
                      <img src="https://cdn.lomb.st/mailserv/contacts.png" class="w-full h-full object-cover object-top rounded-lg">
-                     <p class="text-teal-700 bg-teal-50 rounded-md my-3 mx-2 text-base text-center p-2">Contact lists</p>
+                     <p class="text-gray-900 rounded-md my-3 mx-2 text-base text-center p-2">Contact lists</p>
                   </div>
                </div>
                <div class="p-2">&nbsp;</div>
